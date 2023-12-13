@@ -9,9 +9,21 @@
 
 // myFunction();
 
-function sum(x,y){
-    s=x+y;
-    return s;
+// function sum(x,y){
+//     s=x+y;
+//     return s;
+// }
+// let val=sum(3,4);
+// console.log(val);
+
+//sum function
+
+function sum (a,b){
+    return a+b;
 }
-let val=sum(3,4);
-console.log(val);
+
+//multipication function
+
+function mul(a,b){
+    return a*b;
+}
