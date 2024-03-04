@@ -18,3 +18,19 @@ let myFunction=function(){
 
 }
 console.log(typeof myFunction)
+
+
+
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++
+
+
+//stack(primitive) heap(non-primitive)
+
+let myYoutubeName="mishra@gmail.com"
+
+let anotherName=myYoutubeName
+anotherName="Nikhil@gmail.com"
+
+console.log(myYoutubeName)
+console.log(anotherName)
