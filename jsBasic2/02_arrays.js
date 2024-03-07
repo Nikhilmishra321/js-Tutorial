@@ -9,3 +9,13 @@ const heroes=['shaktiaman','krish','spiderman'];
 heroes[1]='hathim';
 console.log(heroes[1]);
 
+//Nested Arrays
+
+const food=[
+    ['apple',"banana",'orange'],
+    ['strawbeery','bluebarry','rashbarry'],
+    ['potato','carror','barkoli'],
+];
+
+console.log(food[0][1]);
+console.log(food[1][3]);
