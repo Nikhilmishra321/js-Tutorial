@@ -8,3 +8,6 @@ const jsUser={
     email:"@nikhilmishra"
 }
 console.log(jsUser);
+
+jsUser.email="@nikhil"
+console.log(jsUser);
